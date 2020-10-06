@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #06181f;
+}
+.container{
+	position: relative;
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.container .icon{
+	width: 200px;
+}
+.container .icon path
+{
+	fill: transparent;
+	stroke-width:10;
+	stroke: #31e8ff;
+}
+.container .icon.hexa path
+{
+	stroke-dasharray: 1570;
+	stroke-dashoffset:1570;
+}
+.container .icon.hexa:hover path
+{
+	animation: animate-hexa 2s linear forwards
+}
+@keyframes animate-hexa
+{
+	0%{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1570;
+	}
+	80%
+	{
+		stroke-dashoffset:3140;
+		fill:transparent;
+
+	}
+	100%
+	{
+		stroke-dashoffset:3140;
+		fill: #31e8ff;
+	}
+}
+.container{
+	position: relative;
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.container .icon{
+	width: 200px;
+}
+.container .icon path
+{
+	fill: transparent;
+	stroke-width:10;
+	stroke: #31e8ff;
+}
+.container .icon.star path
+{
+	stroke-dasharray: 1810;
+	stroke-dashoffset:1810;
+}
+.container .icon.star:hover path
+{
+	animation: animate-star 2s linear forwards
+}
+@keyframes animate-star
+{
+	0%{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1810;
+	}
+	80%
+	{
+		stroke-dashoffset:3620;
+		fill:transparent;
+
+	}
+	100%
+	{
+		stroke-dashoffset:3620;
+		fill: #31e8ff;
+	}
+}
+.container{
+	position: relative;
+	width: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.container .icon{
+	width: 200px;
+}
+.container .icon path
+{
+	fill: transparent;
+	stroke-width:10;
+	stroke: #31e8ff;
+}
+.container .icon.circle path
+{
+	stroke-dasharray: 1610;
+	stroke-dashoffset:1610;
+}
+.container .icon.circle:hover path
+{
+	animation: animate-circle 2s linear forwards
+}
+@keyframes animate-circle
+{
+	0%{
+		stroke-dashoffset:0;
+	}
+	40%
+	{
+		stroke-dashoffset:1610;
+	}
+	80%
+	{
+		stroke-dashoffset:3220;
+		fill:transparent;
+
+	}
+	100%
+	{
+		stroke-dashoffset:3220;
+		fill: #31e8ff;
+	}
+}
